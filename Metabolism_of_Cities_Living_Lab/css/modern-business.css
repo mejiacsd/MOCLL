@@ -71,3 +71,17 @@ iframe {display: block;}
   color: white;
   transform: rotateY(180deg);
 }
+
+
+
+.flip-card-goals {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #FFFFFF;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-goals:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
