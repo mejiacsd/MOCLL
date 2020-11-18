@@ -72,14 +72,20 @@ iframe {display: block;}
   transform: rotateY(180deg);
 }
 
+.flip-card-back-test {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
 
 
 .flip-card-goals {
   background-color: transparent;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border: 3px solid #FFFFFF;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  /*perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 .flip-card-goals:hover .flip-card-inner {
