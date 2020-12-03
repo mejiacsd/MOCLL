@@ -1,18 +1,4 @@
  <!DOCTYPE html>
-
-<!--TODO:
-Add Backgound images to the 4 rectangles with goals.
-
-Center the flip cards for the goals/team members (I commented out the code by removing the > at the end of the section labels.)
-
-Fix the image size display problem in the slidshow.
-
-
-Add the actual smaller px goals from the UN website here.
-
--->
-
-
 <html lang="en">
 
 <head>
@@ -122,6 +108,8 @@ Add the actual smaller px goals from the UN website here.
 
 <!-- Page Content -->
 <div class="container">
+	
+	
 	<!-- INTRO INFORMATION -->
 	<div>
 	<h5 class="my-4"  style="text-align:left;font-size:300%"> Metabolism of Cities Living Lab (MOC-LLab)</h5>  
@@ -139,19 +127,17 @@ Add the actual smaller px goals from the UN website here.
 			
 			  
 	<!-- ROW OF CONCEPTS Section -->
-	<div class="row">
-
-		  <div class="col-lg-3 mb-4">			  
-			  
-			  
-	<!-- Test Knowledge Goal Flip Card -->
+	<div class="row">	  
+	<!-- Create Knowledge Card -->
+	<div class="col-lg-3 mb-4">	
 	<div class="flip-card-knowledge">
 		<div class="flip-card-inner">
 			<div class="flip-card-front" style="width:250px;height:250px;">
+				<h1>Create Knowledge</h1>
 				<img src="img/createknowledgebg.png" width="250" height="250" alt=""/>
 			</div>
 			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
-			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
 						
 			<p>Create Knowledge</p> 
 			<p>We aim to create new knowledge by participating and collaborating in research projects and developing new open source tools.</p>
@@ -161,69 +147,85 @@ Add the actual smaller px goals from the UN website here.
             </div>
 		</div>
 	</div>
-	<!-- Test Knowledge Goal Flip Card END -->
-			  
-			  
-			  
-			  <!--BLOCK OFF TESTING FOR FLIP CARD
-			  <div class="card h-100">
-			  <h4 class="card-header">Create Knowledge</h4>
-			  <div class="card-body" >
-				<p class="card-text">We aim to create new knowledge by participating and collaborating in research projects and developing new open source tools.</p>
-			  </div>
-			  <img src="img/createknowledgebg.png" width="124" height="124" alt=""/>
-			  <div class="card-footer">
-			  </div>
-			</div>
-			BLOCK OFF END -->
-
-			  
-		  </div>
-
-		  <div class="col-lg-3 mb-4">
-			<div class="card h-100">
-			  <h4 class="card-header">Share Knowledge</h4>
-			  <div class="card-body">
-				<p class="card-text">We aim to gather and curate (all) knowledge around urban metabolism, under-representative communities search in southern California, sustainable development, citizen science, and data analytics in one central platform in order to make it accessible to different target audiences. </p>
-			  </div>
-							  <img src="img/shareknowledgebg.png" width="124" height="124" alt="" alig="center"/>
-			  <div class="card-footer">
-				<!-- Commented it out until I figure  out how to shrink the btton <a  class="btn btn-primary">[GOALS MAP UNDER CONSTRUCTION]</a> -->
-			  </div>
-			</div>
-		  </div>
-
-		  <div class="col-lg-3 mb-4">
-			<div class="card h-100">
-			  <h4 class="card-header">Apply Knowledge</h4>
-			  <div class="card-body">
-				<p class="card-text">We help policy makers and practitioners to tackle their challenges with Urban Metabolism and the United Nations Sustainable Development Goals thinking.</p>
-			  </div>
-			<img src="img/applyknowledgebg.png" width="124" height="124" alt=""/>
-			  <div class="card-footer">
-
-			  </div>
-			</div>
-		  </div>
-
-		<div class="col-lg-3 mb-4">
-			<div class="card h-100">
-			  <h4 class="card-header">Foster  Community</h4>
-			  <div class="card-body">
-				<p class="card-text">We help policy makers and practitioners to tackle their challenges with Urban Metabolism and the United Nations Sustainable Development Goals thinking.</p>
-			  </div>
-							  <img src="img/fosterknowledgebg.png" width="124" height="124" alt=""/>
-			  <div class="card-footer">
-
-			  </div>
-			</div>
-		  </div>
+	</div>
+	<!-- Create Knowledge Card END -->
 		
+	<!-- Share Knowledge Goal Flip Card -->
+	<div class="col-lg-3 mb-4">	
+	<div class="flip-card-knowledge">
+		<div class="flip-card-inner">
+			<h1>Share Knowledge</h1>
+			<div class="flip-card-front" style="width:250px;height:250px;">
+				<img src="img/shareknowledgebg.png" width="250" height="250" alt=""/>
+			</div>
+			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
+						
+			<p>Share Knowledge</p> 
+			<p>We aim to gather and curate (all) knowledge around urban metabolism, under-representative communities search in southern California, sustainable development, citizen science, and data analytics in one central platform in order to make it accessible to different target audiences.</p>
+						
+			</a>
+					
+            </div>
+		</div>
+	</div>
+	</div>
+	<!-- Share Knowledge Goal Flip Card END -->
 		
+	<!-- Apply Knowledge Goal Flip Card -->
+	<div class="col-lg-3 mb-4">	
+	<div class="flip-card-knowledge">
+		<div class="flip-card-inner">
+			<h1>Apply Knowledge</h1>
+			<div class="flip-card-front" style="width:250px;height:250px;">
+				<img src="img/applyknowledgebg.png" width="250" height="250" alt=""/>
+			</div>
+			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
+						
+			<p>Apply Knowledge</p> 
+			<p>We help policy makers and practitioners to tackle their challenges with Urban Metabolism and the United Nations Sustainable Development Goals thinking.</p>
+						
+			</a>
+					
+            </div>
+		</div>
+	</div>
+	</div>
+	<!-- Apply Knowledge Goal Flip Card END -->
+			  
+	<!-- Foster Community Goal Flip Card -->
+	<div class="col-lg-3 mb-4">	
+	<div class="flip-card-knowledge">
+		<div class="flip-card-inner">
+			<h1>Foster Community</h1>
+			<div class="flip-card-front" style="width:250px;height:250px;">
+				<img src="img/fosterknowledgebg.png" width="250" height="250" alt=""/>
+			</div>
+			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
+						
+			<p>Foster  Community</p> 
+			<p>We believe that tackling the urban sustainability challenge can not be done alone. We want to foster a community of stakeholders that collaborates on developing solutions.</p>
+						
+			</a>
+					
+            </div>
+		</div>
+	</div>
+	</div>
+	<!-- Foster Community Goal Flip Card END -->
+		
+				
 		  </div>
 	<!-- END ROW OF CONCEPTS -->
 	
-	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
 	  
 	<!-- CAROUSEL CODE SEGMENT FOR SLIDESHOW, PASTED FROM https://stackoverflow.com/questions/48824568/bootstrap-4-carousel-sliders-not-working/48826241 -->		
 	<div>	
