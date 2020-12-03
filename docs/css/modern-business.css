@@ -82,12 +82,25 @@ iframe {display: block;}
 /*test goals class for the UN GOALS*/
 .flip-card-goals {
   background-color: transparent;
-  width: 180px;
-  height: 180px;
+  width: 190px;
+  height: 190px;
   border: 0px solid #FFFFFF;
   /*perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 .flip-card-goals:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/*test goals class for the UN GOALS*/
+.flip-card-knowledge {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border: 0px solid #FFFFFF;
+  /*perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-knowledge:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
