@@ -1,18 +1,4 @@
  <!DOCTYPE html>
-
-<!--TODO:
-Add Backgound images to the 4 rectangles with goals.
-
-Center the flip cards for the goals/team members (I commented out the code by removing the > at the end of the section labels.)
-
-Fix the image size display problem in the slidshow.
-
-
-Add the actual smaller px goals from the UN website here.
-
--->
-
-
 <html lang="en">
 
 <head>
@@ -122,6 +108,8 @@ Add the actual smaller px goals from the UN website here.
 
 <!-- Page Content -->
 <div class="container">
+	
+	
 	<!-- INTRO INFORMATION -->
 	<div>
 	<h5 class="my-4"  style="text-align:left;font-size:300%"> Metabolism of Cities Living Lab (MOC-LLab)</h5>  
@@ -135,20 +123,20 @@ Add the actual smaller px goals from the UN website here.
 
 	
 	
-	<div class="row">
 
-		  <div class="col-lg-3 mb-4">
 			
 			  
 	<!-- ROW OF CONCEPTS Section -->
-	<!-- Test Knowledge Goal Flip Card -->
-	<div class="flip-card-goals">
+	<div class="row">	  
+	<!-- Create Knowledge Card -->
+	<div class="col-lg-3 mb-4">	
+	<div class="flip-card-knowledge">
 		<div class="flip-card-inner">
 			<div class="flip-card-front" style="width:250px;height:250px;">
 				<img src="img/createknowledgebg.png" width="250" height="250" alt=""/>
 			</div>
 			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
-			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
 						
 			<p>Create Knowledge</p> 
 			<p>We aim to create new knowledge by participating and collaborating in research projects and developing new open source tools.</p>
@@ -158,119 +146,77 @@ Add the actual smaller px goals from the UN website here.
             </div>
 		</div>
 	</div>
-	<!-- Test Knowledge Goal Flip Card END -->
-			  
-			  
-			  
-			  <!--BLOCK OFF TESTING FOR FLIP CARD
-			  <div class="card h-100">
-			  <h4 class="card-header">Create Knowledge</h4>
-			  <div class="card-body" >
-				<p class="card-text">We aim to create new knowledge by participating and collaborating in research projects and developing new open source tools.</p>
-			  </div>
-			  <img src="img/createknowledgebg.png" width="124" height="124" alt=""/>
-			  <div class="card-footer">
-			  </div>
-			</div>
-			BLOCK OFF END -->
-
-			  
-		  </div>
-
-		  <div class="col-lg-3 mb-4">
-			<div class="card h-100">
-			  <h4 class="card-header">Share Knowledge</h4>
-			  <div class="card-body">
-				<p class="card-text">We aim to gather and curate (all) knowledge around urban metabolism, under-representative communities search in southern California, sustainable development, citizen science, and data analytics in one central platform in order to make it accessible to different target audiences. </p>
-			  </div>
-							  <img src="img/shareknowledgebg.png" width="124" height="124" alt="" alig="center"/>
-			  <div class="card-footer">
-				<!-- Commented it out until I figure  out how to shrink the btton <a  class="btn btn-primary">[GOALS MAP UNDER CONSTRUCTION]</a> -->
-			  </div>
-			</div>
-		  </div>
-
-		  <div class="col-lg-3 mb-4">
-			<div class="card h-100">
-			  <h4 class="card-header">Apply Knowledge</h4>
-			  <div class="card-body">
-				<p class="card-text">We help policy makers and practitioners to tackle their challenges with Urban Metabolism and the United Nations Sustainable Development Goals thinking.</p>
-			  </div>
-			<img src="img/applyknowledgebg.png" width="124" height="124" alt=""/>
-			  <div class="card-footer">
-
-			  </div>
-			</div>
-		  </div>
-
-		<div class="col-lg-3 mb-4">
-			<div class="card h-100">
-			  <h4 class="card-header">Foster  Community</h4>
-			  <div class="card-body">
-				<p class="card-text">We help policy makers and practitioners to tackle their challenges with Urban Metabolism and the United Nations Sustainable Development Goals thinking.</p>
-			  </div>
-							  <img src="img/fosterknowledgebg.png" width="124" height="124" alt=""/>
-			  <div class="card-footer">
-
-			  </div>
-			</div>
-		  </div>
+	</div>
+	<!-- Create Knowledge Card END -->
 		
+	<!-- Share Knowledge Goal Flip Card -->
+	<div class="col-lg-3 mb-4">	
+	<div class="flip-card-knowledge">
+		<div class="flip-card-inner">
+			<div class="flip-card-front" style="width:250px;height:250px;">
+				<img src="img/shareknowledgebg.png" width="250" height="250" alt=""/>
+			</div>
+			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
+						
+			<p>Share Knowledge</p> 
+			<p>We aim to gather and curate (all) knowledge around urban metabolism, under-representative communities search in southern California, sustainable development, citizen science, and data analytics in one central platform in order to make it accessible to different target audiences.</p>
+						
+			</a>
+					
+            </div>
+		</div>
+	</div>
+	</div>
+	<!-- Share Knowledge Goal Flip Card END -->
 		
+	<!-- Apply Knowledge Goal Flip Card -->
+	<div class="col-lg-3 mb-4">	
+	<div class="flip-card-knowledge">
+		<div class="flip-card-inner">
+			<div class="flip-card-front" style="width:250px;height:250px;">
+				<img src="img/applyknowledgebg.png" width="250" height="250" alt=""/>
+			</div>
+			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
+						
+			<p>Apply Knowledge</p> 
+			<p>We help policy makers and practitioners to tackle their challenges with Urban Metabolism and the United Nations Sustainable Development Goals thinking.</p>
+						
+			</a>
+					
+            </div>
+		</div>
+	</div>
+	</div>
+	<!-- Apply Knowledge Goal Flip Card END -->
+			  
+	<!-- Foster Community Goal Flip Card -->
+	<div class="col-lg-3 mb-4">	
+	<div class="flip-card-knowledge">
+		<div class="flip-card-inner">
+			<div class="flip-card-front" style="width:250px;height:250px;">
+				<img src="img/fosterknowledgebg.png" width="250" height="250" alt=""/>
+			</div>
+			<div class="flip-card-back-test" style="width:250px;height: 250px; background-color: #808080" href="https://www.un.org/sustainabledevelopment/poverty/">
+			<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
+						
+			<p>Foster  Community</p> 
+			<p>We believe that tackling the urban sustainability challenge can not be done alone. We want to foster a community of stakeholders that collaborates on developing solutions.</p>
+						
+			</a>
+					
+            </div>
+		</div>
+	</div>
+	</div>
+	<!-- Foster Community Goal Flip Card END -->
+		
+				
 		  </div>
 	<!-- END ROW OF CONCEPTS -->
 	
 	
-	
-	<!-- FlIP CARD  --
-	<div class="centerblock">
-		<div class="row" >
-			<!--FLIP CARD LEFT --
-			<div class="flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-					<img src="img/team/gabriela.png" alt="Avatar" style="width:300px;height:300px;">
-					</div>
-				<div class="flip-card-back">
-					<img src="img/team/gabriela_grey.png" alt="Avatar" style="width:300px;height:300px;">
-					<h1>Dr. Gabriela Fernandez</h1> 	
-					<p>Project Lead</p> 
-					<p>FLAVOUR TEXT HERE</p>
-				</div>
-				</div>
-			</div>
-			<!--FLIP CARD MIDDLE --
-			<div class="flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-					<img src="img/team/gabriela.png" alt="Avatar" style="width:300px;height:300px;">
-					</div>
-				<div class="flip-card-back">
-					<h1>Dr. Gabriela Fernandez</h1> 	
-					<p>Project Lead</p> 
-					<p>FLAVOUR TEXT HERE</p>
-				</div>
-				</div>
-			</div>
-			<!--FLIP CARD RIGHT --
-			<div class="flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-					<img src="img/team/gabriela.png" alt="Avatar" style="width:300px;height:300px;">
-					</div>
-				<div class="flip-card-back">
-					<img src="img/team/gabriela_grey_raster.png" alt="Avatar" style="width:300px;height:300px;">
-
-				</div>
-				</div>
-		</div>
-	
-	</div>
-		
-	</div>
-	<!-- FLIP CARD END -->
-
-
 	  
 	<!-- CAROUSEL CODE SEGMENT FOR SLIDESHOW, PASTED FROM https://stackoverflow.com/questions/48824568/bootstrap-4-carousel-sliders-not-working/48826241 -->		
 	<div>	
@@ -333,8 +279,12 @@ Add the actual smaller px goals from the UN website here.
 	
 	
 	<!-- Video Embed Section -->
-	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/468439401" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<p><a href="https://vimeo.com/468439401">SDSU Big Ideas: Metabolism of Cities Living Lab</a> from <a href="https://vimeo.com/user114874546">Carol Maione</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	<div style="padding:56.25% 0 0 0;position:relative;">
+		<iframe src="https://player.vimeo.com/video/468439401" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	</div>
+	
+	<script src="https://player.vimeo.com/api/player.js"></script>
+	<p><a href="https://vimeo.com/468439401">SDSU Big Ideas: Metabolism of Cities Living Lab</a> from <a href="https://vimeo.com/user114874546">Carol Maione</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 	<!-- Video Embed Section END -->	
 
 	<!-- TEMPLATE IMAGE FOR GOALS -->
@@ -351,11 +301,11 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 1-->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-01.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-01.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #EC1C2E" href="https://www.un.org/sustainabledevelopment/poverty/">
-						<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #EC1C2E" href="https://www.un.org/sustainabledevelopment/poverty/">
+						<a href="https://www.un.org/sustainabledevelopment/poverty/" style="color: #FFFFFF; text-decoration: none">
 						
 						<p>NO POVERTY</p> 
 						<p>Economic growth must be inclusive to provide sustainable jobs and promote equality</p>
@@ -368,12 +318,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 2 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-02.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-02.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #D3A029" href="https://www.un.org/sustainabledevelopment/hunger/">
-						<a href="https://www.un.org/sustainabledevelopment/hunger/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #D3A029" href="https://www.un.org/sustainabledevelopment/hunger/">
+						<a href="https://www.un.org/sustainabledevelopment/hunger/" style="color: #FFFFFF; text-decoration: none">
 						<p>ZERO HUNGER</p> 
 						<p>The food and agriculture sector offers key solutions for development, and is central for hunger and poverty eradication.</p>
 						<p>[Click for More]</p>	
@@ -385,12 +335,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 3 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-03.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-03.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #279B48" href="https://www.un.org/sustainabledevelopment/health/">
-						<a href="https://www.un.org/sustainabledevelopment/health/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #279B48" href="https://www.un.org/sustainabledevelopment/health/">
+						<a href="https://www.un.org/sustainabledevelopment/health/" style="color: #FFFFFF; text-decoration: none">
 						<p>Good Health and Well-Being</p> 
 						<p>Ensuring healthy lives and promoting the well-being for all at all ages is essential to sustainable development.</p>
 						<p>[Click for More]</p>	
@@ -402,12 +352,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 4-->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-04.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-04.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #C41F32" href="https://www.un.org/sustainabledevelopment/education/">
-						<a href="https://www.un.org/sustainabledevelopment/education/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #C41F32" href="https://www.un.org/sustainabledevelopment/education/">
+						<a href="https://www.un.org/sustainabledevelopment/education/" style="color: #FFFFFF; text-decoration: none; text-decoration: none; text-decoration: none">
 						<p>Quality Education</p> 
 						<p>Obtaining a quality education is the foundation to improving people’s lives and sustainable development.</p>
 						<p>[Click for More]</p>	
@@ -419,13 +369,13 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 5 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-05.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-05.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #EF402C" href="https://www.un.org/sustainabledevelopment/gender-equality/">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #EF402C" href="https://www.un.org/sustainabledevelopment/gender-equality/">
 
-						<a href="https://www.un.org/sustainabledevelopment/gender-equality/" style="color: #FFFFFF">
+						<a href="https://www.un.org/sustainabledevelopment/gender-equality/" style="color: #FFFFFF; text-decoration: none">
 						<p>Gender Equality</p> 
 						<p>Gender equality is not only a fundamental human right, but a necessary foundation for a peaceful, prosperous and sustainable world.</p>
 						<p>[Click for More]</p>	
@@ -437,12 +387,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 6 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-06.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-06.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #00AEDA" href="https://www.un.org/sustainabledevelopment/water-and-sanitation/">
-						<a href="https://www.un.org/sustainabledevelopment/water-and-sanitation/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #00AEDA" href="https://www.un.org/sustainabledevelopment/water-and-sanitation/">
+						<a href="https://www.un.org/sustainabledevelopment/water-and-sanitation/" style="color: #FFFFFF; text-decoration: none">
 						<p>Clean Water and Sanitation</p> 
 						<p>Clean, accessible water for all is an essential part of the world we want to live in.</p>
 						<p>[Click for More]</p>	
@@ -457,12 +407,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 7-->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-07.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-07.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #FEB614" href="https://www.un.org/sustainabledevelopment/energy/">
-						<a href="https://www.un.org/sustainabledevelopment/energy/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #FEB614" href="https://www.un.org/sustainabledevelopment/energy/">
+						<a href="https://www.un.org/sustainabledevelopment/energy/" style="color: #FFFFFF; text-decoration: none">
 						<p>Affordable and Clean Energy</p> 
 						<p>Energy is central to nearly every major challenge and opportunity.</p>
 						<p>[Click for More]</p>	
@@ -474,12 +424,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 8 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-08.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-08.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #8F1837" href="https://www.un.org/sustainabledevelopment/economic-growth/">
-						<a href="https://www.un.org/sustainabledevelopment/economic-growth/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #8F1837" href="https://www.un.org/sustainabledevelopment/economic-growth/">
+						<a href="https://www.un.org/sustainabledevelopment/economic-growth/" style="color: #FFFFFF; text-decoration: none">
 						<p>Decent Work and Economic Growth</p> 
 						<p>Sustainable economic growth will require societies to create the conditions that allow people to have quality jobs.</p>
 						<p>[Click for More]</p>	
@@ -491,12 +441,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 9 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-09.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-09.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #F36D24" href="https://www.un.org/sustainabledevelopment/infrastructure-industrialization/">
-						<a href="https://www.un.org/sustainabledevelopment/infrastructure-industrialization/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #F36D24" href="https://www.un.org/sustainabledevelopment/infrastructure-industrialization/">
+						<a href="https://www.un.org/sustainabledevelopment/infrastructure-industrialization/" style="color: #FFFFFF; text-decoration: none">
 						<p>Industry, Innovation, and Infrastructure</p> 
 						<p>Investments in infrastructure are crucial to achieving sustainable development.</p>
 						<p>[Click for More]</p>	
@@ -508,12 +458,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 10-->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-10.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-10.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #E11485" href="https://www.un.org/sustainabledevelopment/inequality/">
-						<a href="https://www.un.org/sustainabledevelopment/inequality/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #E11485" href="https://www.un.org/sustainabledevelopment/inequality/">
+						<a href="https://www.un.org/sustainabledevelopment/inequality/" style="color: #FFFFFF; text-decoration: none">
 						<p>Reduced Inequalities</p> 
 						<p>To reduce inequalities, policies should be universal in principle, paying attention to the needs of disadvantaged and marginalized populations.</p>
 						<p>[Click for More]</p>	
@@ -525,12 +475,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 11 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-11.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-11.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #F99D26" href="https://www.un.org/sustainabledevelopment/cities/">
-						<a href="https://www.un.org/sustainabledevelopment/cities/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #F99D26" href="https://www.un.org/sustainabledevelopment/cities/">
+						<a href="https://www.un.org/sustainabledevelopment/cities/" style="color: #FFFFFF; text-decoration: none">
 						<p>Sustainable Cities and Communities</p> 
 						<p>There needs to be a future in which cities provide opportunities for all, with access to basic services, energy, housing, transportation and more.</p>
 						<p>[Click for More]</p>	
@@ -542,12 +492,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 12 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-12.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-12.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #CE8D2A" href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/">
-						<a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #CE8D2A" href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/">
+						<a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/" style="color: #FFFFFF; text-decoration: none">
 						<p>Responsible Consumption and Production</p> 
 						<p>Responsible Production and Consumption.</p>
 						<p>[Click for More]</p>	
@@ -562,12 +512,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 13-->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-13.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-13.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #48783F" href="https://www.un.org/sustainabledevelopment/climate-change/">
-						<a href="https://www.un.org/sustainabledevelopment/climate-change/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #48783F" href="https://www.un.org/sustainabledevelopment/climate-change/">
+						<a href="https://www.un.org/sustainabledevelopment/climate-change/" style="color: #FFFFFF; text-decoration: none">
 						<p>Climate Action</p> 
 						<p>Climate change is a global challenge that affects everyone, everywhere.</p>
 						<p>[Click for More]</p>	
@@ -579,12 +529,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 14 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-14.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-14.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #007CBB" href="https://www.un.org/sustainabledevelopment/oceans/">
-						<a href="https://www.un.org/sustainabledevelopment/oceans/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #007CBB" href="https://www.un.org/sustainabledevelopment/oceans/">
+						<a href="https://www.un.org/sustainabledevelopment/oceans/" style="color: #FFFFFF; text-decoration: none">
 						<p>Life Below Water</p> 
 						<p>Careful management of this essential global resource is a key feature of a sustainable future.</p>
 						<p>[Click for More]</p>	
@@ -596,12 +546,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 15 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-15.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-15.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #3EB04A" href="https://www.un.org/sustainabledevelopment/biodiversity/">
-						<a href="https://www.un.org/sustainabledevelopment/biodiversity/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #3EB04A" href="https://www.un.org/sustainabledevelopment/biodiversity/">
+						<a href="https://www.un.org/sustainabledevelopment/biodiversity/" style="color: #FFFFFF; text-decoration: none">
 						<p>Life on Land</p> 
 						<p>Sustainably manage forests, combat desertification, halt and reverse land degradation, halt biodiversity loss</p>
 						<p>[Click for More]</p>	
@@ -613,12 +563,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 16-->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-16.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-16.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #03558B" href="https://www.un.org/sustainabledevelopment/peace-justice/">
-						<a href="https://www.un.org/sustainabledevelopment/peace-justice/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #03558B" href="https://www.un.org/sustainabledevelopment/peace-justice/">
+						<a href="https://www.un.org/sustainabledevelopment/peace-justice/" style="color: #FFFFFF; text-decoration: none">
 						<p>Peace, Justice and Strong Institutions</p> 
 						<p>Access to justice for all, and building effective, accountable institutions at all levels.</p>
 						<p>[Click for More]</p>	
@@ -630,12 +580,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD 17 -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-17.png" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-17.png" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #183768" href="https://www.un.org/sustainabledevelopment/globalpartnerships">
-						<a href="https://www.un.org/sustainabledevelopment/globalpartnerships" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #183768" href="https://www.un.org/sustainabledevelopment/globalpartnerships">
+						<a href="https://www.un.org/sustainabledevelopment/globalpartnerships" style="color: #FFFFFF; text-decoration: none">
 						<p>Partnerships</p> 
 						<p>Revitalize the global partnership for sustainable development.</p>
 						<p>[Click for More]</p>	
@@ -647,12 +597,12 @@ Add the actual smaller px goals from the UN website here.
 			<!--FLIP CARD LOGO goal -->
 			<div class="flip-card-goals">
 				<div class="flip-card-inner">
-					<div class="flip-card-front" style="width:180px;height:180px;">
-						<img src="https://lh3.googleusercontent.com/cVPQzIEby3l5ZGsPF9DDdn_CFZR3eUcI8kHjDI780HjqmN1ErhgAFKcyKeA4zNvQw9wuzXoINMC6r3Fpq2hhrH2x1pfFd_Kra0KbmOVv8SncO3At1hvy3mF1aOxRq2j-LISAVaxUCRA" alt="Avatar" style="width:180px;height:180px;">
+					<div class="flip-card-front" style="width:190px;height:190px;">
+						<img src="https://lh3.googleusercontent.com/cVPQzIEby3l5ZGsPF9DDdn_CFZR3eUcI8kHjDI780HjqmN1ErhgAFKcyKeA4zNvQw9wuzXoINMC6r3Fpq2hhrH2x1pfFd_Kra0KbmOVv8SncO3At1hvy3mF1aOxRq2j-LISAVaxUCRA" alt="Avatar" style="width:190px;height:190px;">
 					</div>
 					
-					<div class="flip-card-back-test" style="width:180px;height:180px; background-color: #D9D9D9" href="https://www.un.org/sustainabledevelopment/">
-						<a href="https://www.un.org/sustainabledevelopment/" style="color: #FFFFFF">
+					<div class="flip-card-back-test" style="width:190px;height:190px; background-color: #D9D9D9" href="https://www.un.org/sustainabledevelopment/">
+						<a href="https://www.un.org/sustainabledevelopment/" style="color: #FFFFFF; text-decoration: none">
 						<p>The Sustainable Development Goals are the blueprint to achieve a better and more sustainable future for all.</p>
 						<p>[Click for More]</p>	
 						</a>
@@ -672,29 +622,7 @@ Add the actual smaller px goals from the UN website here.
 
 	
 	
-	
-	
-	
-	
-	
-	
-	<!-- COPYPASTA FROM UN WEBSITE
-
-	<aside id="sidebar" role="complementary" class="sidebar fusion-widget-area fusion-content-widget-area fusion-sidebar-right fusion-sdgcardssidebar" style="float: right;">
-											
-					<div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="heading">
-	<h3 id="SDGhmlnk" class="widget-title fusion-responsive-typography-calculated" style="--fontSize:18.5; line-height: 1.1; --minFontSize:18.5;" data-fontsize="18.5" data-lineheight="20.35px">
-		<a href="/sustainabledevelopment/sustainable-development-goals/">The 17 Goals</a>	</h3>
-</div>
-<div class="fusion-flip-boxes flip-boxes row fusion-columns-2 flip-effect-classic equal-heights hideSDGCards" id="sdg-cards" style="display: block;"><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(235, 28, 45, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-01.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-01.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(235, 28, 45, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/poverty/">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(211, 160, 41, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-02.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-02.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(211, 160, 41, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/hunger/">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(39, 155, 72, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-03.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-03.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(39, 155, 72, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><strong><span style="color: #ffffff;"><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/health/">Read More</a></span></strong></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(195, 31, 51, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-04.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-04.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(195, 31, 51, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/education">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(239, 64, 43, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-05.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-05.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(239, 64, 43, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/gender-equality">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(0, 174, 217, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-06.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-06.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(0, 174, 217, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/water-and-sanitation/">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(253, 183, 19, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-07.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-07.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(253, 183, 19, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/energy">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(143, 24, 56, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-08.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-08.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(143, 24, 56, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/economic-growth">Read More</a></strong></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(243, 109, 37, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-09.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-09.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(243, 109, 37, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/infrastructure-industrialization">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(225, 20, 132, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-10.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-10.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(225, 20, 132, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/inequality">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(249, 157, 38, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-11.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-11.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(249, 157, 38, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/cities">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(207, 141, 42, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-12.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-12.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(207, 141, 42, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(72, 119, 62, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-13.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-13.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(72, 119, 62, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/climate-change">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgb(0, 125, 188); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-14.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-14.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgb(0, 125, 188); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/oceans">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(62, 176, 73, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-15.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i0.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-15.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(62, 176, 73, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/biodiversity">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(2, 85, 139, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-16.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-16.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(2, 85, 139, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/peace-justice">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(24, 54, 104, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-17.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2018/05/E_SDG-goals_icons-individual-rgb-17.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgba(24, 54, 104, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/globalpartnerships">Read More</a></strong></span></div></div></div></div></div><div class="fusion-flip-box-wrapper fusion-column col-lg-6 col-md-6 col-sm-6"><div class="fusion-flip-box flip-right"><div class="flip-box-inner-wrapper" style="min-height: 157px;"><div class="flip-box-front" style="background-color: rgba(255, 255, 255, 0.99); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(77, 77, 77); transition-duration: 0.4s; position: absolute;"><div class="flip-box-front-inner"><div class="flip-box-grafix flip-box-image"><img class=" lazyloaded" src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2020/01/SDG-Logo_widget.png?resize=148%2C148&amp;ssl=1" data-orig-src="https://i2.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2020/01/SDG-Logo_widget.png?resize=148%2C148&amp;ssl=1" alt="" width="141" height="141"></div></div></div><div class="flip-box-back" style="background-color: rgb(88, 138, 197); border-color: rgba(0, 0, 0, 0); border-radius: 0px; border-style: solid; border-width: 0px; color: rgb(255, 255, 255); transition-duration: 0.4s; bottom: 0px;"><div class="flip-box-back-inner"><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">Read More</a></strong></span></div></div></div></div></div></div></div></div>			</aside>
-	
-	
-	
-	 END COPYPASTA FROM UN WEBSITE-->
-	
-	
-	
-	
+		
 	<!--TWITTER INTEGRATION --> 
     <div class="d-flex justify-content-center">
         <h3><u>Metabolism of Cities Twitter</u></h3>
@@ -704,6 +632,12 @@ Add the actual smaller px goals from the UN website here.
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>	
 	<!--TWITTER INTEGRATION END -->
+	
+	
+	
+	
+	
+	
 	
 	<!--Bottom Logo and Social Icons-->
 	<div>
@@ -719,8 +653,14 @@ Add the actual smaller px goals from the UN website here.
 
 	
 	
+	
+	
 </div>
 <!-- END PAGE CONTENT /DIV -->
+	
+	
+	
+	
 	
 	
 <!--BOTTOM NAVBAR SECTION -->
@@ -770,7 +710,11 @@ Add the actual smaller px goals from the UN website here.
 </nav>	
 <!-- BOTTOM NAVBAR END -->			
 		
-		
+	
+	
+	
+	
+	
 		
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
