@@ -78,7 +78,7 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link" href="home.html" style="color:#000000" >Home</a>
+            <a class="nav-link" href="home.html">Home</a>
           </li>
 		       
 		  <li class="nav-item">
@@ -114,25 +114,38 @@
 	
 <!-- Sub-Navbar Large Banner -->
 <img src="img/cover-banner_pages-to-jpg-0001.jpg" width="100%" height="auto" alt=""/>
-<!-- Sub-Navbar Large Banner END -->	
+<!-- Sub-Navbar Large Banner END -->		
 
 	
-	<h5 class="my-4"  style="text-align:left;font-size:300%" >PAGE COULD NOT BE FOUND OR IS UNDER CONSTRUCTION<br>
+	<h5 class="my-4"  style="text-align:center;font-size:300%" >PAGE COULD NOT BE FOUND OR IS UNDER CONSTRUCTION<br>
 	  404
 	</h5>  
 
 	
+	<!--Bottom Logo and Social Icons-->
+	<div>
+	<h5 style="text-align:center; color:#686868;" class="my-4; bg-light" >Follow Us</h5>
+	<h5 style="text-align:center" class="my-4;">
 	
-<h5 style="text-align:center" class="my-4; bg-light" >Follow Us</h5>
-<h5 style="text-align:center" class="my-4;" >
-	
-	<a href="404.html"><img src="img/small TW logo.png" width="48" height="48" alt=""> </a>
-	<a href="404.html"><img src="img/small IG LOGO.png" width="48" height="48" alt=""> </a>
-	<a href="404.html"><img src="img/small FB logo.png" width="48" height="48" alt=""> </a>
-		</h5>
+	<a href="https://twitter.com/CityMetabolism?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="48" height="48" alt=""> </a>
+		
+	<a href="https://www.instagram.com/mocll20/?hl=en"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" width="48" height="48" alt=""> </a>
+		
+	<a href="404.html"><img src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png" width="48" height="48" alt=""> </a>
+		
+	<a href="https://www.youtube.com/channel/UCwaliuWsJWhdhk-KUfQHlYA"><img src="img/YT.png" width="48" height="48" alt=""> </a>
+		
+	</h5>
+	</div>
+	<!--Bottom Logo and Social Icons END-->
 
-
 	
+	
+	
+	
+</div>
+</div>
+<!-- END PAGE CONTENT /DIV -->
 	
 	
 	
@@ -185,29 +198,37 @@
       </div>
   </div>
 </nav>	
-<!-- BOTTOM NAVBAR END -->	
-			
+<!-- BOTTOM NAVBAR END -->			
 		
+	
+	
+	
+	
+	
 		
-		
-  <!-- Footer
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; The Center for Human Dynamics in the Mobile Age, San Diego State University 2020</p>
-    </div>
-    
-  </footer>  -->
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-		
-	
-	
+  <!-- Slideshow Script-->
+<script>
+var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 8000); // Change image every 5 seconds
+}
+</script>
+
+	
 </body>
-
-	  
 	  
 </html>
