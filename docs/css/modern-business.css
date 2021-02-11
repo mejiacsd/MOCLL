@@ -192,3 +192,11 @@ iframe {display: block;}
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#testing-video {
+<div>
+<video autoplay="true" loop="" controls width="858" height="420">
+<source type="video/mp4" src="img/template/WEBM">
+</video>
+</div>
+}
